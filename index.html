@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Dimo Chakarov</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="styles/style.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -12,14 +12,39 @@
 <body>
 
     <!-- BEGIN NAVBAR -->
+<!--  
     <div class="navbar">
-        <a href="#about">About</a>
-        <a href="#experience">Experience</a>
-        <a href="#education">Education</a>
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
+        <li><a href="#about">About</a>
+       <li> <a href="#experience">Experience</a>
+       <li> <a href="#education">Education</a>
+       <li> <a href="#projects">Projects</a>
+       <li> <a href="#skills">Skills</a>
+      <li>  <a href="#contact">Contact</a>
+    </div>-->   
+     <!-- Component -->
+    <div class="navbar-component">
+      <!-- Class `area` is a container -->
+      <div class="navbar area">
+        <!-- Logo -->
+        <a href="#" class="brand">Dimo Chakarov</a>
+        <!-- List of links -->
+        <nav role="navigation" id="navigation" class="list">
+          <a href="#About" class="item -link">About</a>
+          <a href="#Experience" class="item -link">Experience</a>
+          <a href="#Education" class="item -link">Education</a>
+          <a href="#Projects" class="item -link">Projects</a>
+          <a href="#Skills" class="item -link">Skills</a>
+          <a href="#Contact" class="item -link">About me</a>
+         
+        </nav>
+        <!-- Button to toggle the display menu  -->
+        <button data-collapse data-target="#navigation" class="toggle">
+          <!-- Hamburger icon -->
+          <span class="icon"></span>
+        </button>
+      </div>
     </div>
+    
     <!-- END NAVBAR -->
 
     <div class="container">
@@ -28,7 +53,7 @@
         <div class="jumbotron">
             <div class="jumbotron-text">
                 <h1>Dimo Chakarov</h1>
-                <p>Want to be Full-Stack Web Developer in Sofia, Bulgaria.</p>
+                <p>Wants  to be Full-Stack Web Developer in Sofia, Bulgaria.</p>
             </div>
             <div class="jumbotron-social">
                 <ul class="ul-social">
@@ -99,7 +124,8 @@
                         </div>
                         <div class="card-content">
                             <p>Conducted layout design and construction for client website. <br> Writing cross-browser compliant
-                                HTML, CSS & JavaScript. <br> Participated in discussions with clients to clarify what they want.
+                                HTML, CSS & JavaScript. <br> Participated in discussions with clients to clarify what they
+                                want.
                             </p>
                         </div>
                     </div>
@@ -122,26 +148,28 @@
 
                     <div class="card">
                         <div class="card-header">
-                           <h4> Self Employed <span class="job-title">Web Developer </span></h4>
+                            <h4> Self Employed <span class="job-title">Web Developer </span></h4>
                         </div>
                         <div class="card-content">
-                            <p>Assisted in the development of web page  <br> Designed template and layout of the page <br> Helped test and deploy web page</p>
+                            <p>Assisted in the development of web page <br> Designed template and layout of the page <br> Helped
+                                test and deploy web page</p>
                         </div>
                     </div>
-                    
+
                     <div class="card">
                         <div class="card-header">
-                            <h4> iTutorGroup  <span class="job-title"> Teaching associate professional</span></h4>
+                            <h4> iTutorGroup <span class="job-title"> Teaching associate professional</span></h4>
                         </div>
                         <div class="card-content">
-                            <p> Provided online education, individualized, personalized learning experiences to hundreds of thousands of students and business professionals through its online network.
+                            <p> Provided online education, individualized, personalized learning experiences to hundreds of thousands
+                                of students and business professionals through its online network.
 
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
-            
+
             <div class="side-content"></div>
         </div>
         <!-- END EXPERIENCE -->
@@ -163,16 +191,27 @@
                             <h4>Telerik Academy <span class="job-title">2016–Present </span></h4>
                         </div>
                         <div class="card-content">
-                            <p>Telerik Academy training for software engineers, studying cutting-edge technologies , develop programing skills through a 12-month intensive program that includes courses in C#, JavaScript, HTML5, CSS3, OOP. In the process of learning ,Node.js, Angular 2 , Version control(GIT), and JavaScript, CSS libraries - Jquery, Bootstrap , Other skills like Responsive Web. Proficient in creating content with HTML5 using templates and industry naming conventions, and incorporating the latest tags, then styling with CSS3 and manipulating layouts and styles, learning preprocessors and newest CSS3 layouts and flexbox. </p>
+                            <p>Telerik Academy training for software engineers, studying cutting-edge technologies , develop
+                                programing skills through a 12-month intensive program that includes courses in C#, JavaScript,
+                                HTML5, CSS3, OOP. In the process of learning ,Node.js, Angular 2 , Version control(GIT),
+                                and JavaScript, CSS libraries - Jquery, Bootstrap , Other skills like Responsive Web. Proficient
+                                in creating content with HTML5 using templates and industry naming conventions, and incorporating
+                                the latest tags, then styling with CSS3 and manipulating layouts and styles, learning preprocessors
+                                and newest CSS3 layouts and flexbox. </p>
                         </div>
                     </div>
                     <!-- EDUCATION 2 -->
                     <div class="card">
                         <div class="card-header">
-                            <h4> English Studies University of Plovdiv "Paisii Hilendarski"   <span class="job-title">2012–Present </span></h4>
+                            <h4> English Studies University of Plovdiv "Paisii Hilendarski" <span class="job-title">2012–Present </span></h4>
                         </div>
                         <div class="card-content">
-                            <p>English Studies provided me with a wide scale reference in English literature and language from different cultures and literary periods. Acquire and awareness of the field , studying subject such as creative writing, reading and use of English, being able to read text in detail and demonstrate understanding of structure.Writing letters, proposals, parrot or review. Listening and extracting and understanding specific information of the speaker's opinion, attitude or feeling. Face-to-face interaction and conversations.</p>
+                            <p>English Studies provided me with a wide scale reference in English literature and language from
+                                different cultures and literary periods. Acquire and awareness of the field , studying subject
+                                such as creative writing, reading and use of English, being able to read text in detail and
+                                demonstrate understanding of structure.Writing letters, proposals, parrot or review. Listening
+                                and extracting and understanding specific information of the speaker's opinion, attitude
+                                or feeling. Face-to-face interaction and conversations.</p>
                         </div>
                     </div>
 
@@ -181,8 +220,8 @@
             <div class="side-content"></div>
         </div>
         <!-- END EDUCATION -->
-<!-- BEGIN SKILLS -->
-         
+        <!-- BEGIN SKILLS -->
+
         <div class="row white box-shadow">
             <div class="side-content"></div>
             <div class="main-content">
@@ -193,11 +232,16 @@
                 <div class="content-body">
                     <div class="card">
                         <div class="card-header">
-                            <h4> Job-related skills  </h4>
+                            <h4> Job-related skills </h4>
                         </div>
                         <div class="card-content">
-                            <p>Knowledge of web designing and development using the latest tools and techniques.<br> Strong command over HTML5, JavaScript, CSS3, JavaScript and other tools that aid in web page design<br>   Version control (Git / GitHub).<br> Working in teams and groups on project and present ideas and collaborate in groups of people.<br>  Ability to develop browser-compatible websites for various electronic devices. <br> Excellent knowledge of web best practices and standards. <br>  Some understanding of SEO practices and standards.<br> Ability to communicate with clients in a professional manner
-</p>
+                            <p>Knowledge of web designing and development using the latest tools and techniques.<br> Strong
+                                command over HTML5, JavaScript, CSS3, JavaScript and other tools that aid in web page design<br>                                Version control (Git / GitHub).<br> Working in teams and groups on project and present ideas
+                                and collaborate in groups of people.<br> Ability to develop browser-compatible websites for
+                                various electronic devices. <br> Excellent knowledge of web best practices and standards.
+                                <br> Some understanding of SEO practices and standards.<br> Ability to communicate with clients
+                                in a professional manner
+                            </p>
                         </div>
                     </div>
                     <ul class="ul-skills">
@@ -275,7 +319,7 @@
         </div>
         <!-- END PROJECTS -->
 
-        
+
 
         <!-- BEGIN CONTACT -->
 
