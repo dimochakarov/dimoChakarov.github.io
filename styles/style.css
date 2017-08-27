@@ -8,7 +8,7 @@ span.s1 {
   text-transform: uppercase;
   color: #3C4447;
 }
-
+/* this should be text */
 span.s2 {
   font-weight: 800;
   position: absolute;
